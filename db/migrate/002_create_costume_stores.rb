@@ -12,8 +12,7 @@ class CreateCostumeStores < ActiveRecords::Migration
     t.string :size
     t.string :image_url
     t.datetime :openning_time
-    t.datetime :closingtime
-    t.timestamp
+    t.datetime :closing_time
   end  
 
 end  
