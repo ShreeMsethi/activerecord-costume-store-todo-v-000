@@ -13,6 +13,7 @@ class CreateCostumeStores < ActiveRecords::Migration[5.2]
     t.string :image_url
     t.datetime :openning_time
     t.datetime :closing_time
+    end
   end  
 
 end  
